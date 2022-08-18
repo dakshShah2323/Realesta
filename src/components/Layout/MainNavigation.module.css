@@ -1,0 +1,44 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b6b6b6;
+}
+
+.logo {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.login {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+  font-weight: bold;
+}
+
+.nav li {
+  margin-left: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a.active {
+  color: #e6fcfc;
+}

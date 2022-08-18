@@ -1,0 +1,59 @@
+.item h4 {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  font-size: 0.95rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* .item header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+} */
+
+.agency {
+  justify-content: flex-end;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.image {
+  width: 400px;
+  height: 260px;
+  align-items: center;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  border-radius: 30px;
+  padding: 0.5rem;
+  /* background-color: #3a3a3a; */
+  color: #336699;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.item p {
+  display: inline;
+  color: #3a3a3a;
+  font-weight: normal;
+}
+
+.actions {
+  border-top: 2px solid #b2d4d4;
+  width: 90%;
+  margin: 0 auto;
+}
+.icons {
+  margin-top: 0.9rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
